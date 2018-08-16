@@ -4,7 +4,7 @@
   "description": "driving school API server",
   "main": "server.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha .",
     "start": "server.js",
     "dev": "nodemon server.js"
   },
@@ -17,6 +17,7 @@
     "express": "^4.16.3",
     "mocha": "^5.2.0",
     "morgan": "^1.9.0",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
   }
 }
