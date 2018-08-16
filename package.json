@@ -4,7 +4,7 @@
   "description": "driving school API server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "server.js",
     "dev": "nodemon server.js"
   },
@@ -15,6 +15,7 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "mocha": "^5.2.0",
     "morgan": "^1.9.0",
     "nodemon": "^1.18.3"
   }
